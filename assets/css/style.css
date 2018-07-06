@@ -1,0 +1,39 @@
+footer{
+background-color: #f0f0f0;
+}
+.world-cup-image{
+width: 100%;
+}
+.input-group img{
+width: 15px;
+}
+
+header ul , footer ul {
+list-style-type: none;
+}
+body{background-color:#999}
+header ul {
+  display: flex;
+  justify-content: space-between;
+padding-bottom:40px 
+}
+.main{margin:auto 0 }
+footer ul { 
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.pseudo{
+border: 1px solid #000
+padding: 10px
+}
+
+.pseudo:after{	
+content: "this is awesome";
+border: 1px solid #00f
+}
+.pseudo:before{
+content: "hello world";
+border: 1px solid #f00
+}
